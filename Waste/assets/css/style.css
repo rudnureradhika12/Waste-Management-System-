@@ -1,0 +1,45 @@
+/* assets/css/style.css */
+
+/* General Styles */
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 70px; /* To prevent content being hidden behind navbar */
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: auto;
+}
+
+.hero-section {
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hero-section .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.features i {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 60vh;
+    }
+
+    .features .col-md-4 {
+        margin-bottom: 30px;
+    }
+}
+
+/* .container {
+    /* margin: 100%; */
+/* }  */
